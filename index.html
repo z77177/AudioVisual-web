@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🎬 布鲁克林影视 - 视频解析版</title>
+    <title>🎬 布鲁克林影视 - 视频解析</title>
     <style>
         * {
             margin: 0;
@@ -20,6 +20,18 @@
             color: #333;
         }
 
+        .logo {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+        }
+
         .header {
             background: rgba(255, 255, 255, 0.95);
             padding: 1.5rem 2rem;
@@ -29,9 +41,6 @@
         .header h1 {
             font-size: 2rem;
             color: #667eea;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
         }
 
         .header p {
@@ -243,6 +252,12 @@
                 font-size: 1.5rem;
             }
 
+            .logo {
+                width: 50px;
+                height: 50px;
+                font-size: 1.5rem;
+            }
+
             .platform-selector {
                 grid-template-columns: repeat(2, 1fr);
             }
@@ -259,8 +274,13 @@
 </head>
 <body>
     <div class="header">
-        <h1>🎬 布鲁克林影视</h1>
-        <p>多平台视频解析工具 | 支持腾讯、爱奇艺、优酷、B站等主流平台。 复制原视频链接即可解析</p>
+        <div style="display: flex; align-items: center; gap: 1rem;">
+            <div class="logo">🎬</div>
+            <div>
+                <h1 style="margin: 0;">布鲁克林影视</h1>
+                <p style="margin: 0.5rem 0 0 0;">多平台视频解析工具 | 支持腾讯、爱奇艺、优酷、B站等主流平台。复制视频链接即可解析</p>
+            </div>
+        </div>
     </div>
 
     <div class="container">
@@ -332,7 +352,7 @@
     </div>
 
     <div class="footer">
-        <p>© 2024 布鲁克林影视 | 仅供学习交流使用 | Made with ❤️</p>
+        <p>© 2025 布鲁克林影视 | 仅供学习交流使用 | Made with ❤️</p>
     </div>
 
     <script>
